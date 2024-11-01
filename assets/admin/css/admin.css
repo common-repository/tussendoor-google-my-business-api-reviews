@@ -1,0 +1,15 @@
+#wpadminbar #wp-admin-bar-gmb_r .ab-icon.gmb_r_icon:before,
+#wpadminbar #wp-admin-bar-gmb_r .ab-icon.gmb_r_pro_icon:before {
+    content   : '\f155';
+    font-size : 18px;
+}
+
+#wpadminbar #wp-admin-bar-gmb_r .ab-icon.gmb_r_icon:before {
+    top : 1px;
+}
+
+#wpadminbar #wp-admin-bar-gmb_r #wp-admin-bar-gmb_r_gopro a,
+#wpadminbar #wp-admin-bar-gmb_r #wp-admin-bar-gmb_r_gopro span,
+#wpadminbar #wp-admin-bar-gmb_r #wp-admin-bar-gmb_r_gopro i::before {
+    color : gold;
+}

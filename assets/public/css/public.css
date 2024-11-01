@@ -1,0 +1,107 @@
+@import 'font-poppins.css';
+
+html.gmb_r_no-scroll {
+    overflow : hidden;
+}
+
+#public-modal .m10t {
+    margin-top : 10px;
+}
+
+#public-modal {
+    position    : fixed;
+    top         : 0;
+    left        : 0;
+    z-index     : 1050;
+    width       : 100%;
+    height      : 100%;
+    outline     : 0;
+    overflow-x  : hidden;
+    overflow-y  : auto;
+    font-size   : 15px;
+    background  : #2752776e;
+    display     : block;
+    font-family : 'Poppins', sans-serif;
+}
+
+#public-modal .modal-dialog {
+    position          : relative;
+    width             : auto;
+    pointer-events    : none;
+    max-width         : 500px;
+    margin            : 0 auto;
+    -webkit-transform : translateY(-50%);
+    transform         : translateY(-50%);
+    top               : 50%;
+}
+
+#public-modal .modal-content {
+    display            : -ms-flexbox;
+    display            : flex;
+    -ms-flex-direction : column;
+    flex-direction     : column;
+    width              : 100%;
+    pointer-events     : auto;
+    background-color   : #fff;
+    background-clip    : padding-box;
+    border-radius      : .3rem;
+    outline            : 0;
+}
+
+#public-modal .modal-header {
+    display                 : block;
+    padding                 : 1rem;
+    border-top-left-radius  : calc(.3rem - 1px);
+    border-top-right-radius : calc(.3rem - 1px);
+}
+
+#public-modal .modal-header h4.modal-title {
+    margin-bottom : 0;
+    line-height   : 1.5;
+    font-size     : 25px;
+    color         : #212529;
+    font-family   : inherit;
+}
+
+#public-modal .modal-header h5 {
+    font-size   : 18px;
+    font-family : inherit;
+}
+
+#public-modal .modal-header button {
+    float              : right;
+    font-size          : 1.5rem;
+    font-weight        : 700;
+    line-height        : 1;
+    color              : #000;
+    text-shadow        : 0 1px 0 #fff;
+    opacity            : .5;
+    padding            : 0;
+    background-color   : transparent;
+    border             : 0;
+    -webkit-appearance : none;
+    -moz-appearance    : none;
+    appearance         : none;
+    cursor             : pointer;
+    padding            : 1rem;
+    margin             : -1rem -1rem -1rem auto;
+}
+
+#public-modal .modal-body {
+    position  : relative;
+    -ms-flex  : 1 1 auto;
+    flex      : 1 1 auto;
+    padding   : 1rem;
+    color     : #212529;
+    font-size : 15px;
+}
+
+#public-modal .modal-body p.blue,
+#public-modal .modal-body p.blue a {
+    color : #2C80FF;
+}
+
+#public-modal .modal-body p.small {
+    margin-top : 20px;
+    font-size  : 11px;
+}

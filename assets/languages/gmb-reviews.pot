@@ -1,0 +1,395 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Google My Business Reviews\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-09 14:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: gmb-reviews"
+
+#: app/controllers/AdminController.php:31
+#: app/controllers/AdminController.php:85
+#, php-format
+msgid ""
+"%s: The support for the %s plugin will end on %s. Please upgrade to the "
+"Premium version if you would like to keep using the features of this plugin."
+msgstr ""
+
+#: config/config.php:37
+msgid "1 february 2024"
+msgstr ""
+
+#: app/views/admin/partials/admin.settings.php:36
+msgid "Account"
+msgstr ""
+
+#. Description of the plugin
+#: app/views/admin/admin.php:9
+msgid ""
+"Add a star rating to your website in the organic search results in Google "
+"and show your reviews with a widget or shortcode!"
+msgstr ""
+
+#: app/views/admin/partials/admin.dashboard.php:49
+msgid "After revoking the access you will be able to enter new credentials."
+msgstr ""
+
+#: app/views/admin/modals/admin.modal.revoke.php:10
+msgid ""
+"After revoking the access you wont be able to use the functionalities of "
+"this plugin without regranting access. By revoking the access you will also "
+"delete your Client ID and Client Secret."
+msgstr ""
+
+#: app/controllers/ReviewController.php:188
+#: app/controllers/ReviewController.php:191
+msgid "Anonymous"
+msgstr ""
+
+#: app/views/admin/modals/admin.modal.revoke.php:9
+msgid "Are you sure you want to revoke the access to the API?"
+msgstr ""
+
+#: app/views/partials/admin.header.php:32
+#: app/views/partials/admin.header.php:37
+msgid "Back"
+msgstr ""
+
+#: app/views/admin/partials/admin.dashboard.php:38
+msgid ""
+"Be sure to add the current website URL to the Authorized redirect URIs of "
+"your"
+msgstr ""
+
+#: app/views/admin/partials/admin.info.php:27
+msgid "Cache"
+msgstr ""
+
+#: app/views/admin/partials/admin.info.php:34
+msgid "Cache cleared!"
+msgstr ""
+
+#: app/views/admin/partials/admin.settings.php:38
+#: app/views/admin/partials/admin.settings.php:42
+msgid "Choose account"
+msgstr ""
+
+#: app/views/admin/partials/admin.settings.php:55
+#: app/views/admin/partials/admin.settings.php:57
+msgid "Choose account first"
+msgstr ""
+
+#: app/views/admin/partials/admin.settings.php:59
+msgid "Choose location"
+msgstr ""
+
+#: app/views/admin/partials/admin.settings.php:22
+msgid ""
+"Choose the account that manages the location of which you want to retrieve "
+"the reviews."
+msgstr ""
+
+#: app/views/admin/partials/admin.info.php:34
+#: app/views/admin/partials/admin.info.php:35
+msgid "Clear cache"
+msgstr ""
+
+#: app/views/admin/partials/admin.info.php:34
+msgid "Clearing cache"
+msgstr ""
+
+#: app/views/admin/partials/admin.info.php:34
+msgid "Clearing cache failed :("
+msgstr ""
+
+#: app/views/admin/partials/admin.dashboard.php:10
+msgid "Client ID"
+msgstr ""
+
+#: app/views/admin/partials/admin.dashboard.php:17
+msgid "Client Secret"
+msgstr ""
+
+#: app/views/admin/modals/admin.modal.revoke.php:13
+msgid "Close and keep access"
+msgstr ""
+
+#: app/views/public/modals/public.modal.state-failed.php:17
+#, php-format
+msgid "Contact %sTussendoor B.V.%s if this error persists."
+msgstr ""
+
+#: app/App.php:77 app/views/admin/admin.php:25
+msgid "Dashboard"
+msgstr ""
+
+#: app/views/admin/partials/admin.creator.php:13
+msgid "Default Review Widget"
+msgstr ""
+
+#: app/controllers/AdminController.php:78
+#, php-format
+msgid "Disable the premium %s plugin if you want to use the free version."
+msgstr ""
+
+#: app/views/public/modals/public.modal.access-denied.php:10
+msgid "Error:"
+msgstr ""
+
+#: app/views/admin/partials/admin.creator.php:7
+#, php-format
+msgid "Find the default widget in the widget settings by searching: %s"
+msgstr ""
+
+#: app/views/admin/partials/admin.settings.php:75
+msgid "Force new sync"
+msgstr ""
+
+#: app/views/admin/partials/admin.dashboard.php:3
+msgid "Google My Business information"
+msgstr ""
+
+#: app/views/admin/partials/admin.dashboard.php:43
+msgid "Grant access"
+msgstr ""
+
+#: app/views/partials/admin.footer.php:12
+msgid "Help"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://tussendoor.nl/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://tussendoor.nl/wordpress-plugins/"
+msgstr ""
+
+#: app/views/admin/partials/admin.settings.php:27
+#, php-format
+msgid ""
+"If you have added location groups in %sGoogle My Business%s you will see "
+"these groups between your accounts."
+msgstr ""
+
+#: app/App.php:103 app/views/admin/admin.php:44
+msgid "Info"
+msgstr ""
+
+#: app/views/admin/partials/admin.info.php:7
+msgid "Installation"
+msgstr ""
+
+#: app/controllers/AccessController.php:76
+msgid ""
+"It looks like the plugin does not have access yet! Access token missing."
+msgstr ""
+
+#: app/views/admin/partials/admin.settings.php:53
+msgid "Location"
+msgstr ""
+
+#: app/views/admin/partials/admin.info.php:20
+msgid "Minimum PHP version:"
+msgstr ""
+
+#: app/controllers/AdminController.php:32
+#: app/controllers/AdminController.php:86
+msgid "NOTICE"
+msgstr ""
+
+#: app/views/public/modals/public.modal.state-failed.php:7
+msgid "Permission denied!"
+msgstr ""
+
+#: app/views/public/modals/public.modal.success.php:5
+msgid "Permission granted!"
+msgstr ""
+
+#: app/views/admin/partials/admin.info.php:19
+msgid "PHP"
+msgstr ""
+
+#: app/views/public/modals/public.modal.access-denied.php:14
+msgid "Please try again."
+msgstr ""
+
+#: app/App.php:110
+msgid "Premium!"
+msgstr ""
+
+#: app/views/admin/modals/admin.modal.revoke.php:14
+#: app/views/admin/partials/admin.dashboard.php:52
+msgid "Revoke access"
+msgstr ""
+
+#: app/views/admin/partials/admin.settings.php:80
+#: app/views/admin/partials/admin.dashboard.php:25
+msgid "Save"
+msgstr ""
+
+#: app/App.php:86 app/views/admin/admin.php:31
+#: app/views/admin/partials/admin.settings.php:17
+msgid "Settings"
+msgstr ""
+
+#: app/views/admin/partials/admin.creator.php:21
+msgid "Shortcode"
+msgstr ""
+
+#: app/views/admin/partials/admin.creator.php:22
+msgid "Shortcodes can be used everywhere in your theme or page builder."
+msgstr ""
+
+#: app/views/public/modals/public.modal.access-denied.php:13
+msgid ""
+"Something went wrong when granting access to the Google My Business API."
+msgstr ""
+
+#: app/views/public/modals/public.modal.state-failed.php:10
+msgid ""
+"Something went wrong when requesting access to the Google My Business API"
+msgstr ""
+
+#: app/controllers/ReviewController.php:167
+#: app/controllers/AccountController.php:99
+#: app/controllers/LocationsController.php:117
+#: app/controllers/AccessController.php:92
+#: app/controllers/AccessController.php:93
+msgid ""
+"Something went wrong while accessing the Google API, please contact "
+"Tussendoor B.V. if the error persists."
+msgstr ""
+
+#: app/controllers/AccessController.php:149
+#: app/controllers/AccessController.php:195
+msgid ""
+"Something went wrong while accessing the Google API, please re-authorise the "
+"access and contact Tussendoor B.V. if the error persists."
+msgstr ""
+
+#: app/views/public/modals/public.modal.access-denied.php:9
+msgid "Something went wrong!"
+msgstr ""
+
+#: app/controllers/AccessController.php:113
+msgid "Successfully revoked access to the Google My Business API."
+msgstr ""
+
+#: app/controllers/AccountController.php:72
+msgid "Successfully synced account data!"
+msgstr ""
+
+#: app/views/admin/partials/admin.settings.php:73
+msgid "Sync"
+msgstr ""
+
+#: app/views/admin/partials/admin.settings.php:40
+msgid "Sync account data first"
+msgstr ""
+
+#: app/views/admin/partials/admin.dashboard.php:35
+msgid "The access has been expired!"
+msgstr ""
+
+#: app/controllers/DashboardController.php:37
+msgid ""
+"The access to the Google My Business API has been expired, please grant "
+"access again."
+msgstr ""
+
+#: app/views/admin/partials/admin.dashboard.php:7
+msgid "The following information is retrieved from your"
+msgstr ""
+
+#: app/views/admin/partials/admin.settings.php:31
+msgid ""
+"The locations you've added in a group will only be available under this "
+"group."
+msgstr ""
+
+#: app/views/admin/partials/admin.dashboard.php:37
+msgid ""
+"The plugin needs access to your Google My Business API, click on the button "
+"below to grant this access."
+msgstr ""
+
+#: app/controllers/AdminController.php:72
+msgid ""
+"The uploads folder is not writable! This will result in unexpected results."
+msgstr ""
+
+#: app/controllers/AdminController.php:63
+#, php-format
+msgid ""
+"The use of the field %s in the %sGeneral Settings%s of WordPress is "
+"recommended for better results."
+msgstr ""
+
+#: app/controllers/AdminController.php:53
+#, php-format
+msgid ""
+"The use of the field %s in the %sGeneral Settings%s of WordPress is required."
+msgstr ""
+
+#. Name of the plugin
+msgid "Tussendoor - Google My Business API Reviews"
+msgstr ""
+
+#. Author of the plugin
+msgid "Tussendoor B.V."
+msgstr ""
+
+#: app/controllers/AccountController.php:65
+msgid "Unable to find accounts with the given client credentials."
+msgstr ""
+
+#: app/controllers/LocationsController.php:80
+msgid ""
+"Unable to find locations corresponding to this account with the given client "
+"credentials. Please check if you granted access with the correct Google "
+"account."
+msgstr ""
+
+#: app/controllers/LocationsController.php:73
+msgid ""
+"Unable to find locations, please select an account or add the correct "
+"authentication."
+msgstr ""
+
+#: app/views/admin/partials/admin.info.php:12
+msgid "Version"
+msgstr ""
+
+#: app/views/admin/modals/admin.modal.revoke.php:5
+msgid "Warning! Revoking acces."
+msgstr ""
+
+#: app/App.php:95 app/views/admin/admin.php:38
+msgid "Widget"
+msgstr ""
+
+#: app/views/public/modals/public.modal.success.php:8
+msgid "You have granted access to the Google My Business API"
+msgstr ""
+
+#: app/views/admin/partials/admin.dashboard.php:48
+msgid ""
+"You have granted access to the Google My Business API with these credentials,"
+" click on the button below to revoke this access."
+msgstr ""
+
+#: app/views/public/modals/public.modal.success.php:10
+#: app/views/public/modals/public.modal.access-denied.php:16
+#: app/views/public/modals/public.modal.state-failed.php:12
+msgid "You will be redirected to the admin page in"
+msgstr ""
